@@ -1,0 +1,16 @@
+# Local environment and secrets
+.env
+.cache/
+
+# Local data and generated artifacts
+chroma_db/
+embeddings_cache/
+*.gguf
+videoanalysis-old.csv
+
+# Python virtual environment
+rag/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
